@@ -1,6 +1,5 @@
-import { shipsPosition } from '../db';
+import { shipsPosition, setPlayerTurn } from '../db';
 import { Ship } from '../types';
-import { setPlayerTurn } from '../db/index';
 
 const attackedShip: Ship[] = [];
 
